@@ -3,6 +3,6 @@
 exports.passportFeishu = {
   key: '',
   secret: '',
-  appType: 'internal',
+  appType: 'enterprise',
   callbackURL: '/passport/feishu/callback',
 };
