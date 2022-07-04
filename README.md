@@ -34,7 +34,7 @@ $ npm i egg-passport-feishu --save
 // config/plugin.js
 exports.passportFeishu = {
   enable: true,
-  package: 'egg-passport-github',
+  package: 'egg-passport-feishu',
 };
 ```
 
