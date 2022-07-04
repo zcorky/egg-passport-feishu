@@ -20,19 +20,19 @@
 [download-image]: https://img.shields.io/npm/dm/egg-passport-github.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-passport-github
 
-github passport plugin for egg
+feishu passport plugin for egg
 
 ## Install
 
 ```bash
-$ npm i egg-passport-github --save
+$ npm i egg-passport-feishu --save
 ```
 
 ## Usage
 
 ```js
 // config/plugin.js
-exports.passportGithub = {
+exports.passportFeishu = {
   enable: true,
   package: 'egg-passport-github',
 };
@@ -42,7 +42,7 @@ exports.passportGithub = {
 
 ```js
 // config/config.default.js
-exports.passportGithub = {
+exports.passportFeishu = {
   key: 'your oauth key',
   secret: 'your oauth secret',
 };
