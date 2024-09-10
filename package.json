@@ -55,12 +55,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-passport-github.git"
+    "url": "git+https://github.com/zcorky/egg-passport-feishu.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/zcorky/egg-passport-feishu/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-passport-github#readme",
+  "homepage": "https://github.com/zcorky/egg-passport-feishu#readme",
   "author": "fengmk2",
   "license": "MIT"
 }
