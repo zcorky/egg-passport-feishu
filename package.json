@@ -1,6 +1,6 @@
 {
   "name": "egg-passport-feishu",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "feishu passport plugin for egg",
   "eggPlugin": {
     "name": "passportFeishu",
