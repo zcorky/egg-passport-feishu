@@ -7,34 +7,34 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-passport-github.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-passport-github
-[travis-image]: https://img.shields.io/travis/eggjs/egg-passport-github.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-passport-github
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-passport-github.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-passport-github?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-passport-github.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-passport-github
-[snyk-image]: https://snyk.io/test/npm/egg-passport-github/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-passport-github
-[download-image]: https://img.shields.io/npm/dm/egg-passport-github.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-passport-github
+[npm-image]: https://img.shields.io/npm/v/egg-passport-feishu.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/egg-passport-feishu
+[travis-image]: https://img.shields.io/travis/eggjs/egg-passport-feishu.svg?style=flat-square
+[travis-url]: https://travis-ci.org/eggjs/egg-passport-feishu
+[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-passport-feishu.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/eggjs/egg-passport-feishu?branch=master
+[david-image]: https://img.shields.io/david/eggjs/egg-passport-feishu.svg?style=flat-square
+[david-url]: https://david-dm.org/eggjs/egg-passport-feishu
+[snyk-image]: https://snyk.io/test/npm/egg-passport-feishu/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/egg-passport-feishu
+[download-image]: https://img.shields.io/npm/dm/egg-passport-feishu.svg?style=flat-square
+[download-url]: https://npmjs.org/package/egg-passport-feishu
 
-github passport plugin for egg
+feishu passport plugin for egg
 
 ## Install
 
 ```bash
-$ npm i egg-passport-github --save
+$ npm i egg-passport-feishu --save
 ```
 
 ## Usage
 
 ```js
 // config/plugin.js
-exports.passportGithub = {
+exports.passportFeishu = {
   enable: true,
-  package: 'egg-passport-github',
+  package: 'egg-passport-feishu',
 };
 ```
 
@@ -42,7 +42,7 @@ exports.passportGithub = {
 
 ```js
 // config/config.default.js
-exports.passportGithub = {
+exports.passportFeishu = {
   key: 'your oauth key',
   secret: 'your oauth secret',
 };
@@ -52,7 +52,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/zcorky/egg-passport-feishu/issues).
 
 ## License
 
